@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C785D5C22AD5147000D75C0 /* CurrencyListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C785D5B22AD5147000D75C0 /* CurrencyListItem.swift */; };
 		7CE522BC22ACE3B800C3FB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE522BB22ACE3B800C3FB8B /* AppDelegate.swift */; };
 		7CE522BE22ACE3B800C3FB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE522BD22ACE3B800C3FB8B /* ViewController.swift */; };
 		7CE522C122ACE3B800C3FB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE522BF22ACE3B800C3FB8B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C785D5B22AD5147000D75C0 /* CurrencyListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListItem.swift; sourceTree = "<group>"; };
 		7CE522B822ACE3B800C3FB8B /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE522BB22ACE3B800C3FB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CE522BD22ACE3B800C3FB8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				7CE522BB22ACE3B800C3FB8B /* AppDelegate.swift */,
 				7CE522BD22ACE3B800C3FB8B /* ViewController.swift */,
+				7C785D5B22AD5147000D75C0 /* CurrencyListItem.swift */,
 				7CE522BF22ACE3B800C3FB8B /* Main.storyboard */,
 				7CE522C222ACE3BA00C3FB8B /* Assets.xcassets */,
 				7CE522C422ACE3BA00C3FB8B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE522BE22ACE3B800C3FB8B /* ViewController.swift in Sources */,
+				7C785D5C22AD5147000D75C0 /* CurrencyListItem.swift in Sources */,
 				7CE522BC22ACE3B800C3FB8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

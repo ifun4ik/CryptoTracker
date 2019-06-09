@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewController: UITableViewController {
 	
 	var cryptoAb = [String]()
 
@@ -19,11 +19,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 		cryptoAb = justData.components(separatedBy: String("  "))
 	}
 	
-	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		return cryptoAb.count
 	}
 	
-	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
 		cell?.textLabel?.text = cryptoAb[indexPath.row]
 		return cell!
